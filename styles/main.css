@@ -1,0 +1,50 @@
+html {
+    background-color: green;
+    color: black;
+    font-size: 12pt;
+    font-family: 'Lucia Sans', 'Lucida Sans Regular';
+    background-image: url(../images/les.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+p{
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5 {
+    color: purple;
+    font-family: 'Segeo UI', 'Tahoma', Geneva;
+    border-bottom: 1px solid purple;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    
+    text-decoration: underline;
+}
+main {
+    width: 60rem;
+    margin: 2rem auto;
+    /*opacity: .5;*/
+    background-color: rgba(230, 200, 230, .8);
+    padding: 2rem;
+    /*border: 1px purple solid;*/
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px rgba(100, 100, 100,.5);
+    /*filter: blur(1px)*/
+    backdrop-filter: blur(2px);
+}
